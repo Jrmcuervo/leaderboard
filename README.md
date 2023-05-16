@@ -104,7 +104,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this Awesome Books project please share my portfolio with recruters!
+If you like this Laderboard project please share my portfolio with recruters!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
