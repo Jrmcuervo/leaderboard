@@ -1,6 +1,6 @@
 # Webpack
 
-Welcome to my Webpack project
+Welcome to my leaderboard project
 
 <a name="readme-top"></a>
 
@@ -23,10 +23,9 @@ Welcome to my Webpack project
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Webpack! <a name="about-project"></a>
+# 📖 Leaderboard! <a name="about-project"></a>
 
-**Webpack!** This project teache me how to setup webpack.
-
+**Leaderboard!** This project is to learn the correct use of Gitflow, promises and callbacks will also be used, and we will also see the use of APIs
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -42,13 +41,15 @@ Welcome to my Webpack project
 
 ### Key Features <a name="key-features"></a>
 
-- **A project to learn how to use webpack**
+- **A project to learn how to use webpack, Gitflow, Promises and callbacks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
+**The live demo will be updated as soon as the page is displayed**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +61,7 @@ Welcome to my Webpack project
   https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/Jrmcuervo/webpack.git
+  git clone https://github.com/Jrmcuervo/leaderboard.git
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains
   the repository.
@@ -85,6 +86,8 @@ Welcome to my Webpack project
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **Updates will be made shortly to make the page interactive**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -108,6 +111,9 @@ If you like this Awesome Books project please share my portfolio with recruters!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the Codepip company for creating the game called css frog.
+https://twitter.com/playcodepip
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
