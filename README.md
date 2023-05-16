@@ -1,4 +1,4 @@
-# Webpack
+# Leaderboard
 
 Welcome to my leaderboard project
 
