@@ -4,8 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1></h1>
+  <body class="leaderboard__conteiner">
+    <header class="leaderboard__header">
+      <h1 class="leaderboard">Leaderboard</h1>
+    </header>
+    <main class="leaderboard__main">
+      <section class="leaderboard__section">
+        <div class="leaderboard__header">
+          <h2 class="leaderboard__title">Recent scores</h2>
+          <button class="leaderboard__refresh">Refresh</button>
+        </div>
+        <table class="leaderboard__table">
+          <tbody>
+            <tr>
+              <td class="leaderboard__score">Name: 100</td>
+            </tr>
+            <tr>
+              <td class="leaderboard__score">Name: 20</td>
+            </tr>
+            <tr>
+              <td class="leaderboard__score">Name: 50</td>
+            </tr>
+            <tr>
+              <td class="leaderboard__score">Name: 78</td>
+            </tr>
+            <tr>
+              <td class="leaderboard__score">Name: 125</td>
+            </tr>
+            <tr>
+              <td class="leaderboard__score">Name: 77</td>
+            </tr>
+            <tr>
+              <td class="leaderboard__score">Name: 42</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="leaderboard__section">
+        <h2 class="leaderboard__title">Add your score</h2>
+        <form class="leaderboard__form">
+          <input type="text" id="nameInput" class="leaderboard__input" placeholder="Your name">
+  
+          <input type="number" id="scoreInput" class="leaderboard__input" placeholder="Your score">
+  
+          <button type="submit" class="leaderboard__submit">Submit</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
