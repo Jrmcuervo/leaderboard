@@ -1,7 +1,97 @@
-div {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Neue', cursive;
 }
 
-body {
-  background-color: bisque;
+.leaderboard__header {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.leaderboard {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.leaderboard__main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+}
+
+.leaderboard__section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.leaderboard__title {
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.leaderboard__refresh,
+.leaderboard__submit {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 3px 13px;
+  font-weight: 600;
+  transition: all 100ms;
+}
+
+.leaderboard__refresh:hover {
+  background-color: rgb(223, 223, 223);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.9);
+}
+
+.leaderboard__table {
+  width: 100%;
+  border: 3px solid black;
+  border-radius: 3px;
+}
+
+.leaderboard__table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.leaderboard__table tr:nth-child(odd) {
+  background-color: #eaeaea;
+}
+
+.leaderboard__score {
+  font-weight: 600;
+}
+
+.leaderboard__form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+input {
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: 600;
+}
+
+.leaderboard__submit {
+  align-self: flex-end;
 }
