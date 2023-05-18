@@ -59,13 +59,23 @@
   width: 100%;
   border: 3px solid black;
   border-radius: 3px;
+  list-style-type: none;
+
+  /* Agrega esta línea para quitar los puntos de lista */
+  padding: 0;
+
+  /* Agrega esta línea para quitar el espacio adicional */
 }
 
-.leaderboard__table tr:nth-child(even) {
+.leaderboard__table li {
+  padding: 10px;
+}
+
+.leaderboard__table li:nth-child(even) {
   background-color: #fff;
 }
 
-.leaderboard__table tr:nth-child(odd) {
+.leaderboard__table li:nth-child(odd) {
   background-color: #eaeaea;
 }
 

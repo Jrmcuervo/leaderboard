@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body class="leaderboard__conteiner">
+  <body class="leaderboard__container">
     <header class="leaderboard__header">
       <h1 class="leaderboard">Leaderboard</h1>
     </header>
@@ -19,31 +19,7 @@
           <h2 class="leaderboard__title">Recent scores</h2>
           <button class="leaderboard__refresh">Refresh</button>
         </div>
-        <table class="leaderboard__table">
-          <tbody>
-            <tr>
-              <td class="leaderboard__score">Name: 100</td>
-            </tr>
-            <tr>
-              <td class="leaderboard__score">Name: 20</td>
-            </tr>
-            <tr>
-              <td class="leaderboard__score">Name: 50</td>
-            </tr>
-            <tr>
-              <td class="leaderboard__score">Name: 78</td>
-            </tr>
-            <tr>
-              <td class="leaderboard__score">Name: 125</td>
-            </tr>
-            <tr>
-              <td class="leaderboard__score">Name: 77</td>
-            </tr>
-            <tr>
-              <td class="leaderboard__score">Name: 42</td>
-            </tr>
-          </tbody>
-        </table>
+        <ul class="leaderboard__table"></ul>
       </section>
       <section class="leaderboard__section">
         <h2 class="leaderboard__title">Add your score</h2>
@@ -56,5 +32,7 @@
         </form>
       </section>
     </main>
+  
+    <script src="bundle.js"></script>
   </body>
 </html>
