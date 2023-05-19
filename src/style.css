@@ -5,6 +5,10 @@
   font-family: 'Comic Neue', cursive;
 }
 
+body {
+  background-color: #f0f0f0;
+}
+
 .leaderboard__header {
   width: 100%;
   padding: 20px 40px;
@@ -12,7 +16,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px 5px 0 0;
 }
 
 .leaderboard {
@@ -34,49 +40,67 @@
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .leaderboard__title {
   font-size: 30px;
   padding: 10px 0;
+  margin-right: 10px;
 }
 
 .leaderboard__refresh,
 .leaderboard__submit {
-  background-color: transparent;
-  border: 2px solid black;
-  padding: 3px 13px;
+  background-color: #333;
+  border: 2px solid gray;
+  color: white;
+  padding: 10px 20px;
   font-weight: 600;
-  transition: all 100ms;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
+.leaderboard__submit {
+  align-self: flex-end;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.leaderboard__submit:hover,
 .leaderboard__refresh:hover {
-  background-color: rgb(223, 223, 223);
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.9);
+  background-color: #222;
 }
 
 .leaderboard__table {
   width: 100%;
-  border: 3px solid black;
-  border-radius: 3px;
-  list-style-type: none;
-
-  /* Agrega esta línea para quitar los puntos de lista */
-  padding: 0;
-
-  /* Agrega esta línea para quitar el espacio adicional */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .leaderboard__table li {
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.leaderboard__table li:last-child {
+  border-bottom: none;
 }
 
 .leaderboard__table li:nth-child(even) {
-  background-color: #fff;
+  background-color: #f8f8f8;
 }
 
 .leaderboard__table li:nth-child(odd) {
-  background-color: #eaeaea;
+  background-color: #fff;
 }
 
 .leaderboard__score {
@@ -92,16 +116,11 @@
 }
 
 input {
-  padding: 5px 10px;
-  border: 2px solid black;
-  border-radius: 2px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
 }
 
 input::placeholder {
-  color: black;
-  font-weight: 600;
-}
-
-.leaderboard__submit {
-  align-self: flex-end;
+  color: #999;
 }
